@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./Bdayrem.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "poppins", sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-weight:bold;
+    font-size: 4rem;
+    margin-top: -10;
+}
+.countdown-container{
+    display: flex;
+}
+
+.big-text {
+    font-size: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el{
+    text-align:center;
+    
+}
+.countdown-el span{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
