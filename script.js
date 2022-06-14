@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minutesEl = document.getElementById("minutes");
 const secondsEl = document.getElementById("seconds");
 
-const Bday="4 May 2023";
+const Bday="04 May 2023";
 
 function countdown(){
     const Upcommingbday= new Date(Bday);
